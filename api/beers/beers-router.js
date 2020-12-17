@@ -1,6 +1,6 @@
 const express = require("express");
 const router = express.Router();
-const Beer = require('./beers-modal');
+const Beer = require('./beers-model');
 
 router.get('/', (req, res) => {
   Beer.get()
